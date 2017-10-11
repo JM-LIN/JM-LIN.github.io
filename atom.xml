@@ -317,62 +317,6 @@ step20->step21->step22->step23(right)->e</textarea><textarea id="flowchart-0-opt
   </entry>
   
   <entry>
-    <title>初次接触Uboot源码</title>
-    <link href="https://www.jmlin.club/posts/%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6Uboot.html"/>
-    <id>https://www.jmlin.club/posts/初次接触Uboot.html</id>
-    <published>2017-07-27T05:23:31.000Z</published>
-    <updated>2017-10-02T13:50:56.216Z</updated>
-    
-    <content type="html"><![CDATA[<!-- build time:Wed Oct 11 2017 16:41:10 GMT+0800 (中国标准时间) --><p>上半年对Cortex-A8裸机与嵌入式C语言进行了系统性的学习，终于进阶到了Uboot启动阶段。<br><a id="more"></a></p><ul><li>注：以下配置是以S5PV210为例。</li></ul><p>废话不说，上菜。</p><h1 id="配置：-​"><a href="#配置：-​" class="headerlink" title="配置：﻿​"></a>配置：﻿​</h1><ul><li>uboot和Linux kernel等复杂项目，不能直接编译，都需要先配置才能编译</li><li>首先进入uboot根目录<ul><li>若不指定编译文件目录，执行 make x210_sd_config 出现：Configuring for x210_sd board 配置成功</li><li>指定编译文件目录<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">makeO=Outputx210_sd_config<span class="comment">#配置文件</span></div><div class="line">makeO=Outputall<span class="comment">#编译</span></div><div class="line">makeO=Outputdistclean<span class="comment">#清理</span></div></pre></td></tr></table></figure></li></ul></li></ul><h1 id="编译："><a href="#编译：" class="headerlink" title="编译："></a>编译：</h1><ul><li>第一步：编译之前检查交叉编译链对不对，检查当前编译环境中有没有安装合适的arm-linux-链</li><li>第二步：检查uboot根目录的Makefile中的编译器的设置是否正确。在工程的主Makefile中会设置交叉编译工具链的路径和名字，必须保证这个路径和名字和我们自己装的是一致，当然将编译命令导出到环境变量就可以不同</li><li>确保以上2点，即可进行编译。可以直接make，或者make -j4(多线程编译)</li></ul><h1 id="uboot中各文件介绍："><a href="#uboot中各文件介绍：" class="headerlink" title="uboot中各文件介绍："></a>uboot中各文件介绍：</h1><pre><code>.gitignore : git工具的文件
-arm_config.mk : 后缀为.mk，是一个Makefile文件，将来在某个Makefile中会调用它
-3个Changelog文件 : 修改记录文件，该文件记录了这个uboot项目的版本变迁以及每个版本较上一个版本修改的记录。
-config.mk : 性质同arm_config.mk
-COPYING : 版权声明，uboot本身是GPL许可证的
-CREDITS : 鸣谢，记录了对uboot有贡献的人
-image_split : 一个脚本
-MAINTAINERS : 维护者，当前参与维护uboot源码的社区工作者
-MAKEALL :　一个脚本
-Ｍakefile : 用于编译整个uboot
-mk : 快速编译的脚本，即先清理后配置再编译
-mkconfig ： uboot配置阶段的只要配置脚本，uboot的可移植性很大程度就是靠这个配置脚本在维护
-mkmovi ： 一个脚本，和inand/SD卡启动有关
-README : 使用说明书
-rules.mk : uboot中Makefile使用的规则
-</code></pre><h1 id="根目录文件夹名："><a href="#根目录文件夹名：" class="headerlink" title="根目录文件夹名："></a>根目录文件夹名：</h1><pre><code>api : 硬件无关功能函数，uboot移植时不用管
-api_examples : API相关的测试示例代码
-board : 存放各种开发板相关的配置文件
-common : 用于存放一些与具体硬件无关的普遍适用的一些代码。譬如控制台实现、crc校验。但是更多的主要是两类：一类是cmd开头的，是用来实现uboot的命令系统的；另一类是env开头的，是用来实现环境变量的
-cpu ： 与SOC相关的，里面存放的代码都是SOC相关初始化和控制代码（如：CPU的、中断的、串口的等内部外设，包括起始代码start.S）
-disk : 磁盘有关
-doc : 文档目录，英文原档，帮助理解uboot
-drivers ： 存放Linux源代码中扣出来原封不动的Linux设备驱动，用于uboot的运行，主要是开发板上一些必须用到的驱动
-examples : 示例代码
-fs ： filesystem文件系统，从Linux源代码中移植过来的，用于管理flash等资源
-include ： 头文件目录
-lib开头的文件夹 ： 架构相关的库文件  lib_arm(arm架构使用的一些库文件)、lib_generic（所有架构通用的库文件）  这类文件夹中的内容移植时基本不用管
-libfdt ： 设备树有关的。使用设备树来进行启动传参，进行硬件信息的描述
-nand_spl : nand相关
-net : 网络相关的代码
-onenand开头 ： onenand相关的
-post : 
-sd_fusing : 实现烧录uboot镜像到SD卡的代码
-tools : 一些工具类的代码
-</code></pre><p>会不定时更新后续博客！！！有想法的，欢迎留意讨论！！！</p><!-- rebuild by neat -->]]></content>
-    
-    <summary type="html">
-    
-      &lt;!-- build time:Wed Oct 11 2017 16:41:10 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;上半年对Cortex-A8裸机与嵌入式C语言进行了系统性的学习，终于进阶到了Uboot启动阶段。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Uboot" scheme="https://www.jmlin.club/categories/Uboot/"/>
-    
-    
-      <category term="Uboot" scheme="https://www.jmlin.club/tags/Uboot/"/>
-    
-  </entry>
-  
-  <entry>
     <title>前言</title>
     <link href="https://www.jmlin.club/posts/WTF.html"/>
     <id>https://www.jmlin.club/posts/WTF.html</id>

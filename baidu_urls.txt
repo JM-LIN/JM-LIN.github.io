@@ -9,5 +9,4 @@ https://www.jmlin.club/posts/配置TFTP.html
 https://www.jmlin.club/posts/Uboot启动两个阶段.html
 https://www.jmlin.club/posts/Uboot主目录下的Makefile分析.html
 https://www.jmlin.club/posts/Personal-Software.html
-https://www.jmlin.club/posts/初次接触Uboot.html
 https://www.jmlin.club/posts/WTF.html
