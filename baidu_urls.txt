@@ -1,4 +1,3 @@
-https://www.jmlin.club/posts/Uboot简单源码概述-入门篇.html
 https://www.jmlin.club/posts/Uboot前期准备.html
 https://www.jmlin.club/posts/话说存储类关键字.html
 https://www.jmlin.club/posts/话说存储类.html
