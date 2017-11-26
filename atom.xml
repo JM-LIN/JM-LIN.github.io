@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.jmlin.club/"/>
-  <updated>2017-11-26T11:04:15.058Z</updated>
+  <updated>2017-11-26T11:08:01.870Z</updated>
   <id>https://www.jmlin.club/</id>
   
   <author>
@@ -16,13 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Raspberry_Pi3上手</title>
+    <title>Raspberry Pi 3B上手</title>
     <link href="https://www.jmlin.club/posts/Raspberry-Pi3%E4%B8%8A%E6%89%8B.html"/>
     <id>https://www.jmlin.club/posts/Raspberry-Pi3上手.html</id>
     <published>2017-11-26T10:41:47.000Z</published>
-    <updated>2017-11-26T11:04:15.058Z</updated>
+    <updated>2017-11-26T11:08:01.870Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Sun Nov 26 2017 19:04:38 GMT+0800 (中国标准时间) --><p>前段时间买了个树莓派3，但一直在忙其它东西，就把它荒废了！今天有时间，折腾就一下。<br><a id="more"></a></p><blockquote><p><strong>注:</strong> <em>Raspberry系统为Raspbian 9.1 (Stretch)，如果是其它系统注意操作时的差异</em></p></blockquote><h2 id="查看系统信息"><a href="#查看系统信息" class="headerlink" title="查看系统信息"></a>查看系统信息</h2><ul><li>如果不知道自己的系统版本的话，可以敲<br>lsb_release -a</li></ul><h2 id="Log-in"><a href="#Log-in" class="headerlink" title="Log in"></a>Log in</h2><ul><li>第一次登陆，默认用户名为pi,密码为raspberry</li><li>若要登陆root，可以改密码<br>sudo passwd root</li></ul><h2 id="更换镜像源"><a href="#更换镜像源" class="headerlink" title="更换镜像源"></a>更换镜像源</h2><pre><code>sudo vi /etc/apt/sources.list       
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 26 2017 19:08:17 GMT+0800 (中国标准时间) --><p>前段时间买了个树莓派3，但一直在忙其它东西，就把它荒废了！今天有时间，折腾就一下。<br><a id="more"></a></p><blockquote><p><strong>注:</strong> <em>Raspberry系统为Raspbian 9.1 (Stretch)，如果是其它系统注意操作时的差异</em></p></blockquote><h2 id="查看系统信息"><a href="#查看系统信息" class="headerlink" title="查看系统信息"></a>查看系统信息</h2><ul><li>如果不知道自己的系统版本的话，可以敲<br>lsb_release -a</li></ul><h2 id="Log-in"><a href="#Log-in" class="headerlink" title="Log in"></a>Log in</h2><ul><li>第一次登陆，默认用户名为pi,密码为raspberry</li><li>若要登陆root，可以改密码<br>sudo passwd root</li></ul><h2 id="更换镜像源"><a href="#更换镜像源" class="headerlink" title="更换镜像源"></a>更换镜像源</h2><pre><code>sudo vi /etc/apt/sources.list       
 </code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib</div><div class="line">deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib</div></pre></td></tr></table></figure><pre><code>sudo apt-get update
 sudo apt-get upgrade
 </code></pre><h2 id="安装输入法"><a href="#安装输入法" class="headerlink" title="安装输入法"></a>安装输入法</h2><pre><code>sudo apt-get install fcitx fcitx-googlepinyin fcitx-module-cloudpinyin fcitx-sunpinyin
@@ -41,7 +41,7 @@ vi /etc/dhcpcd.conf
     
     <summary type="html">
     
-      &lt;!-- build time:Sun Nov 26 2017 19:04:38 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;前段时间买了个树莓派3，但一直在忙其它东西，就把它荒废了！今天有时间，折腾就一下。&lt;br&gt;
+      &lt;!-- build time:Sun Nov 26 2017 19:08:17 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;前段时间买了个树莓派3，但一直在忙其它东西，就把它荒废了！今天有时间，折腾就一下。&lt;br&gt;
     
     </summary>
     
