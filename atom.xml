@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.jmlin.club/"/>
-  <updated>2017-11-26T11:46:34.243Z</updated>
+  <updated>2017-11-27T07:16:17.377Z</updated>
   <id>https://www.jmlin.club/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="https://www.jmlin.club/posts/Raspberry-Pi3%E4%B8%8A%E6%89%8B.html"/>
     <id>https://www.jmlin.club/posts/Raspberry-Pi3上手.html</id>
     <published>2017-11-26T10:41:47.000Z</published>
-    <updated>2017-11-26T11:46:34.243Z</updated>
+    <updated>2017-11-27T07:16:17.377Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Sun Nov 26 2017 19:46:47 GMT+0800 (中国标准时间) --><p>前段时间买了个树莓派3，但一直在忙其它东西，就把它荒废了！今天有时间，折腾就一下<br><a id="more"></a></p><blockquote><p><strong>注:</strong> <em>Raspberry系统为Raspbian 9.1 (Stretch)，如果是其它系统注意操作时的差异</em></p></blockquote><h2 id="查看系统信息"><a href="#查看系统信息" class="headerlink" title="查看系统信息"></a>查看系统信息</h2><ul><li>如果不知道自己的系统版本的话，可以敲<br>lsb_release -a</li></ul><h2 id="Log-in"><a href="#Log-in" class="headerlink" title="Log in"></a>Log in</h2><ul><li>第一次登陆，默认用户名为pi,密码为raspberry</li><li>若要登陆root，可以改密码<br>sudo passwd root</li></ul><h2 id="更换镜像源"><a href="#更换镜像源" class="headerlink" title="更换镜像源"></a>更换镜像源</h2><pre><code>sudo vi /etc/apt/sources.list       
+    <content type="html"><![CDATA[<!-- build time:Mon Nov 27 2017 15:17:07 GMT+0800 (中国标准时间) --><p>前段时间买了个树莓派3，但一直在忙其它东西，就把它荒废了！今天有时间，折腾就一下<br><a id="more"></a></p><blockquote><p><strong>注:</strong> <em>Raspberry系统为Raspbian 9.1 (Stretch)，如果是其它系统注意操作时的差异</em></p></blockquote><h2 id="查看系统信息"><a href="#查看系统信息" class="headerlink" title="查看系统信息"></a>查看系统信息</h2><ul><li>如果不知道自己的系统版本的话，可以敲<br>lsb_release -a</li></ul><h2 id="Log-in"><a href="#Log-in" class="headerlink" title="Log in"></a>Log in</h2><ul><li>第一次登陆，默认用户名为pi,密码为raspberry</li><li>若要登陆root，可以改密码<br>sudo passwd root</li></ul><h2 id="更换镜像源"><a href="#更换镜像源" class="headerlink" title="更换镜像源"></a>更换镜像源</h2><pre><code>sudo vi /etc/apt/sources.list       
 </code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib</div><div class="line">deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib</div></pre></td></tr></table></figure><pre><code>sudo apt-get update
 sudo apt-get upgrade
 </code></pre><h2 id="安装输入法"><a href="#安装输入法" class="headerlink" title="安装输入法"></a>安装输入法</h2><pre><code>sudo apt-get install fcitx fcitx-googlepinyin fcitx-module-cloudpinyin fcitx-sunpinyin
@@ -35,13 +35,14 @@ vi .vimrc                   // 进入文件编辑
 </code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">country=CN</div><div class="line">ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev         # 当前使用interface的socket文件</div><div class="line">update_config=1</div><div class="line">ap_scan=2           # 默认值是1，表示优先链接可见WIFI，受优先级影响</div><div class="line">                    # 2，表示按照network定义的顺序链接，不受优先级影响</div><div class="line">network=&#123;</div><div class="line">ssid=&quot;Your Router&quot;</div><div class="line">psk=&quot;Your Passwd&quot;</div><div class="line">key_mgmt=WPA-PSK    # 加密选项</div><div class="line">priority=6         # 链接优先级 越大越链接</div><div class="line">&#125;</div><div class="line"></div><div class="line">network=&#123;</div><div class="line">ssid=&quot;Your Router&quot;</div><div class="line">psk=&quot;Your Passwd&quot;</div><div class="line">key_mgmt=WPA-PSK</div><div class="line">priority=5</div><div class="line">scan_ssid=1         # 连接隐藏WIFI选项</div><div class="line">&#125;</div></pre></td></tr></table></figure><h2 id="设置无线网卡静态IP"><a href="#设置无线网卡静态IP" class="headerlink" title="设置无线网卡静态IP"></a>设置无线网卡静态IP</h2><pre><code>ifconfig wlan0          # 记录ether后面的一组数据(如：e8:27:39:sd:ed:66)，后面会用到
 vi /etc/dhcpcd.conf
 </code></pre><ul><li>在文件后面添加内容，下面的IP地址要根据自己所连接WIFI的IP地址改动</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">interface e8:27:39:sd:ed:66 </div><div class="line">static ip_address=192.168.0.3/24 </div><div class="line">static routers=192.168.0.1 </div><div class="line">static domain_name_servers=192.168.0.2 8.8.8.8</div></pre></td></tr></table></figure><pre><code>reboot
-</code></pre><h2 id="防止ssh连接因超时闲置断开"><a href="#防止ssh连接因超时闲置断开" class="headerlink" title="防止ssh连接因超时闲置断开"></a>防止ssh连接因超时闲置断开</h2><pre><code>vi /etc/ssh/sshd_config
+</code></pre><h2 id="root登录ssh"><a href="#root登录ssh" class="headerlink" title="root登录ssh"></a>root登录ssh</h2><pre><code>vi /etc/ssh/sshd_config
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">PermitRootLogin prohibit-password</div><div class="line">改为</div><div class="line">PermitRootLogin yes</div></pre></td></tr></table></figure><h2 id="防止ssh连接因超时闲置断开"><a href="#防止ssh连接因超时闲置断开" class="headerlink" title="防止ssh连接因超时闲置断开"></a>防止ssh连接因超时闲置断开</h2><pre><code>vi /etc/ssh/sshd_config
 </code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ClientAliveInterval 60</div></pre></td></tr></table></figure><pre><code>/etc/init.d/ssh restart
 </code></pre><p><strong>注</strong>：本文内容部分来自互联网整理，部分来自个人经验总结；本文将持续收集更新，欢迎留言补充！</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
-      &lt;!-- build time:Sun Nov 26 2017 19:46:47 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;前段时间买了个树莓派3，但一直在忙其它东西，就把它荒废了！今天有时间，折腾就一下&lt;br&gt;
+      &lt;!-- build time:Mon Nov 27 2017 15:17:07 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;前段时间买了个树莓派3，但一直在忙其它东西，就把它荒废了！今天有时间，折腾就一下&lt;br&gt;
     
     </summary>
     
