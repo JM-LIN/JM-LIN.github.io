@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[VPS搭建]]></title>
+    <url>%2Fposts%2FVPS%E6%90%AD%E5%BB%BA.html</url>
+    <content type="text"><![CDATA[实验室的海外服务器还有10来天就过期了，趁有点时间就玩一玩！前言：今天去Vultr部署了一个虚拟专用服务器(下面以VPS代指)，一开始系统分配的IP已经被GFW墙了，可是我还抱着一丝轻蔑的态度，想要用远程终端通过代理来登录，折腾了2个小时后觉得不太靠谱，还是把VPS给删除掉，让系统再从新分配一个不同IP的VPS给我。然后马上来这里ping测试一下有没有被墙。幸运的是，我第二次就可以了，不需要通过代理就能用putty来登录VPS。弱弱地吐槽一句，Vultr的网页终端交互能力好弱啊！所部署的VPS参数如下 用了Ubuntu14.04挺久的了，所以玩生不如玩熟！！！一些更新apt-get update &amp;&amp; apt-get upgradeapt-get install gcc g++ # 更新编译器apt-get install aptitudevim系统原生配置的是vi，我习惯用vim就下载一个vim,接着再安装vim的插件apt-get install vimwget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -xSSR这个我就不多做解释了，懂的人懂就好！（奸笑ing）安装123wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.shchmod +x shadowsocksR.sh./shadowsocksR.sh 2&gt;&amp;1 | tee shadowsocksR.log一开始要设置密码，之后的都使用默认配置使用命令12345./shadowsocksR.sh uninstall # 卸载/etc/init.d/shadowsocks start # 启动/etc/init.d/shadowsocks stop # 停止/etc/init.d/shadowsocks restart # 重启/etc/init.d/shadowsocks status # 状态文件配置路径123/etc/shadowsocks.json # 配置文件路径/var/log/shadowsocks.log # 日志文件路径/usr/local/shadowsocks # 代码安装目录Database安装mysqlapt-get install mysql-server mysql-client libmysqlclient-dev libmysql-java弹出蓝色框框，输入两次密码登录mysql -u root -pGitapt-get install git -y配置git config --global user.email &quot;eclaboratory@163.com&quot;git config --global user.name &quot;EC-Lab&quot;git config --global credential.helper store # 用于保存用户数据博客环境搭建安装apt-get install npmapg-get install nginx -ynpm install hexo-cli hexo-server -g之后继续补充！注：本文内容部分来自互联网整理，部分来自个人经验总结；本文将持续收集更新，欢迎留言补充！]]></content>
+      <categories>
+        <category>Geek</category>
+      </categories>
+      <tags>
+        <tag>VPS</tag>
+        <tag>Vultr</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Vim之高手进阶篇]]></title>
+    <url>%2Fposts%2FVim%E4%B9%8B%E9%AB%98%E6%89%8B%E8%BF%9B%E9%98%B6%E7%AF%87.html</url>
+    <content type="text"><![CDATA[距离上一次发博客也是有一段时间了！在命令模式下移动光标 H(屏幕首行开头) gg(文章首行开头) 0(行首) $(行末) b(前一个单词开头) w(后一个单词开头) e(后一个单词末尾) G(文章末行开头) 从命令模式进入插入模式o &quot; 在当前光标所在行下面插入一行 O &quot; 在当前光标所在行上面插入一行 分屏模式适用于多文件处理横向分屏:sp otherfilename “ split垂直分屏:vsp otherfilename “ vertically split切换Viewport| 按键 | 作用 || :——– | :——– || Ctrl + w -&gt; h | 移动光标到左边的viewport|| Ctrl + w -&gt; j | 移动光标到下边的viewport|| Ctrl + w -&gt; k | 移动光标到上边的viewport|| Ctrl + w -&gt; l | 移动光标到右边的viewport|| Ctrl + w -&gt; + | 扩大当前viewport|| Ctrl + w -&gt; - | 缩小当前viewport|| Ctrl + w -&gt; = | 重新均匀分配各个viewport的占比|| Ctrl + w -&gt; r | 调换各个viewport的位置。用R的话是反向调换|| Ctrl + w -&gt; q 或c | 关闭当前viewport|| Ctrl + o 或 :only | 只保留当前所在viewport|字符搜索/ &quot; 顺序查找(n下一个、N上一个) ? &quot; 逆向查找 % &quot; 配对括号查找 字符替换:s/old/new &quot; 只改当前所在行的第一个 :s/old/new/g &quot; 只改当前所在行的所有 :#,#s/old/new/g &quot; #，#表示若干行中首位两行的行号 :%s/old/new/g &quot; 替换整个文件中的每个匹配符 :%s/old/new/gc &quot; 替换整个文件中的每个匹配符， 但会提示是否进行替换 文件合并:r filename &quot; 在光标后插入一个文件的内容 在vim中执行外部shell命令:! shell_command :w FILENAME &quot; 可将当前编辑文件保存FILENAME文件中 v motion :w FILENAME &quot; 可将当前编辑文件中可视模式下选中的内容保存到FILENAME文件中 :read FILENAME &quot; 可提取磁盘文件FILENAME并将其插入到当前文件的光标位置后面 :read ! wc % &quot; 可将文件包含的行数、单词数和字符数输出到当前文件的光标位置后面 :2read ! wc % &quot; 插入到第二行，使用`$`在最后一行插入，`0`在第一行前面插入 保存当前所有打开的文件及其状态:mksession ~/.vim/sessions/your_session_name.vim 还原上次会话法一：:source ~/.vim/sessions/your_session_name.vim法二：vim -S ~/.vim/sessions/your_session_name.vim注：本文内容部分来自互联网整理，部分来自个人经验总结；本文将持续收集更新，欢迎留言补充！]]></content>
+      <categories>
+        <category>Geek</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Raspberry Pi 3B上手]]></title>
     <url>%2Fposts%2FRaspberry-Pi3%E4%B8%8A%E6%89%8B.html</url>
     <content type="text"><![CDATA[前段时间买了个树莓派3，但一直在忙其它东西，就把它荒废了！今天有时间，折腾就一下注: Raspberry系统为Raspbian 9.1 (Stretch)，如果是其它系统注意操作时的差异查看系统信息如果不知道自己的系统版本的话，可以敲lsb_release -aLog in第一次登陆，默认用户名为pi,密码为raspberry若要登陆root，可以改密码sudo passwd root更换镜像源sudo vi /etc/apt/sources.list 12deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contribdeb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contribsudo apt-get update sudo apt-get upgrade 安装输入法sudo apt-get install fcitx fcitx-googlepinyin fcitx-module-cloudpinyin fcitx-sunpinyin 更新Vimapt-get remove vim-common apt-get install vim cd ~ // 切换到当前用户根目录 vi .vimrc // 进入文件编辑 1234567set autoindent &quot; 自动缩进set cindentset tabstop=4 &quot; Tab宽度set softtabstop=4 &quot; 同一缩进为4set shiftwidth=4 set expandtab &quot; 使用空格代替制表符set nu &quot; 显示行号source .vimrc 配置WIFI链接文件vi /etc/wpa_supplicant/wpa_supplicant.conf 12345678910111213141516171819country=CNctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev # 当前使用interface的socket文件update_config=1ap_scan=2 # 默认值是1，表示优先链接可见WIFI，受优先级影响 # 2，表示按照network定义的顺序链接，不受优先级影响network=&#123;ssid=&quot;Your Router&quot;psk=&quot;Your Passwd&quot;key_mgmt=WPA-PSK # 加密选项priority=6 # 链接优先级 越大越链接&#125;network=&#123;ssid=&quot;Your Router&quot;psk=&quot;Your Passwd&quot;key_mgmt=WPA-PSKpriority=5scan_ssid=1 # 连接隐藏WIFI选项&#125;设置无线网卡静态IPifconfig wlan0 # 记录ether后面的一组数据(如：e8:27:39:sd:ed:66)，后面会用到 vi /etc/dhcpcd.conf 在文件后面添加内容，下面的IP地址要根据自己所连接WIFI的IP地址改动1234interface e8:27:39:sd:ed:66 static ip_address=192.168.0.3/24 static routers=192.168.0.1 static domain_name_servers=192.168.0.2 8.8.8.8reboot root登录sshvi /etc/ssh/sshd_config 123PermitRootLogin prohibit-password改为PermitRootLogin yes防止ssh连接因超时闲置断开vi /etc/ssh/sshd_config 1ClientAliveInterval 60/etc/init.d/ssh restart 注：本文内容部分来自互联网整理，部分来自个人经验总结；本文将持续收集更新，欢迎留言补充！]]></content>
