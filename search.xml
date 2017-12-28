@@ -4,11 +4,23 @@
     <title><![CDATA[交叉编译工具链环境搭建]]></title>
     <url>%2Fposts%2F%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E9%93%BE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html</url>
     <content type="text"><![CDATA[.解压mkdir /usr/local/arm/ 创建一个新文件夹，用于存放编译链工具mv /mnt/hgfs/Winshare/arm-2009q3.tar.bz2 /usr/local/arm/把你下载到的编译工具链压缩包移动到上面的文件夹,每个人的共享文件夹名字不一样，自己要根据实际改动cd /usr/local/arm/tar -jxvf arm-2009q3.tar.bz2安装mv /mnt/hgfs/Winshare/mk-arm-linux.sh /usr/local/arm/arm-2009q3/bin 根据自己的共享目录名字改动cd /usr/local/arm/arm-2009q3/binvi make-arm-linux.sh1234567891011121314151617181920212223ln arm-none-linux-gnueabi-addr2line -s arm-linux-addr2lineln arm-none-linux-gnueabi-ar -s arm-linux-arln arm-none-linux-gnueabi-as -s arm-linux-asln arm-none-linux-gnueabi-c++ -s arm-linux-c++ln arm-none-linux-gnueabi-c++filt -s arm-linux-c++filtln arm-none-linux-gnueabi-cpp -s arm-linux-cppln arm-none-linux-gnueabi-g++ -s arm-linux-g++ln arm-none-linux-gnueabi-gcc -s arm-linux-gccln arm-none-linux-gnueabi-gcc-4.4.1 -s arm-linux-gcc-4.4.1ln arm-none-linux-gnueabi-gcov -s arm-linux-gcovln arm-none-linux-gnueabi-gdb -s arm-linux-gdbln arm-none-linux-gnueabi-gdbtui -s arm-linux-gdbtuiln arm-none-linux-gnueabi-gprof -s arm-linux-gprofln arm-none-linux-gnueabi-ld -s arm-linux-ldln arm-none-linux-gnueabi-nm -s arm-linux-nmln arm-none-linux-gnueabi-objcopy -s arm-linux-objcopyln arm-none-linux-gnueabi-objdump -s arm-linux-objdumpln arm-none-linux-gnueabi-ranlib -s arm-linux-ranlibln arm-none-linux-gnueabi-readelf -s arm-linux-readelfln arm-none-linux-gnueabi-size -s arm-linux-sizeln arm-none-linux-gnueabi-sprite -s arm-linux-spriteln arm-none-linux-gnueabi-strings -s arm-linux-stringsln arm-none-linux-gnueabi-strip -s arm-linux-stripsource mk-arm-linux.sh导入环境变量gedit ~/.bashrc打开这个文件，在最下面添加以下一行export PATH=/usr/local/arm/arm-2009q3/bin:$PATHsource ~/.bashrc64位兼容32位如果Ubuntu是64位的1234sudo dpkg --add-architecture i386sudo apt-get updatesudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386sudo ./adb测试在任意路径下敲arm-linux-gcc -v返回信息中含有gcc version 4.4.1表示已经安装成功了注：本文内容部分来自互联网整理，部分来自个人经验总结；本文将持续收集更新，欢迎留言补充！]]></content>
+      <categories>
+        <category>Ubuntu</category>
+      </categories>
+      <tags>
+        <tag>交叉编译</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[NFS服务器搭建]]></title>
     <url>%2Fposts%2FNFS%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA.html</url>
     <content type="text"><![CDATA[.基于Ubuntu14.04环境安装sudo apt-get install nfs-kernel-server -y重启service rpcbind restartservice nfs-kernel-server restart建立文件目录mkdir /root/rootfs # 建立根文件目录chmod 777 -R /root/rootfsmkdir /opt #建立访问目录，位置不固定配置sudo vi /etc/exports/root/rootfs *(rw,sync,no_root_squash,no_subtree_check) #在文本最后加上/root/rootfs目录是与nfs服务客户端共享的目录，*代表允许所有的网段访问rw：挂载此目录的客户端对该共享目录具有读写权限sync：资料同步写入内存和硬盘no_root_squash：客户机用root访问该共享文件夹时，不映射root用户(root_squash：客户机用root用户访问该共享文件夹时，将root用户映射成匿名用户)no_subtree_check：不检查父目录的权限测试sudo exportfs -r #更新文件sudo showmount localhost -e #下面是显示信息Export list for Ubuntu2jmlin:/root/rootfs *本地挂载mount -t nfs -o nolock localhost:/root/rootfs /opt #挂载rootfs目录到/opt目录下注：本文内容部分来自互联网整理，部分来自个人经验总结；本文将持续收集更新，欢迎留言补充！]]></content>
+      <categories>
+        <category>Ubuntu</category>
+      </categories>
+      <tags>
+        <tag>NFS</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[基于TQ210的学习小过程]]></title>
@@ -21,6 +33,7 @@
         <tag>Uboot</tag>
         <tag>Linux</tag>
         <tag>移植</tag>
+        <tag>arm</tag>
       </tags>
   </entry>
   <entry>
