@@ -1,6 +1,6 @@
+https://www.jmlin.club/posts/mini嵌入式web服务器搭建.html
 https://www.jmlin.club/posts/交叉编译工具链环境搭建.html
 https://www.jmlin.club/posts/NFS服务器搭建.html
-https://www.jmlin.club/posts/基于TQ210的学习小过程.html
 https://www.jmlin.club/posts/VPS搭建.html
 https://www.jmlin.club/posts/Vim之高手进阶篇.html
 https://www.jmlin.club/posts/Raspberry-Pi3上手.html
