@@ -5,14 +5,23 @@
     
   <url>
     <loc>https://www.jmlin.club/posts/ARM%E5%A4%84%E7%90%86%E5%99%A8.html</loc>
-    <lastmod>2018-01-28T15:20:38.130Z</lastmod>
+    <lastmod>2018-01-28T15:36:50.871Z</lastmod>
     <data>
         <display>
         <title>ARM处理器概述</title>
         <pubTime>2018-01-28T14:56:28.000Z</pubTime>
         
+        <tag>ARM</tag>
+         
+        <tag>异常</tag>
+         
+        <tag>寄存器</tag>
+         
          
            
+             
+              <breadCrumb title="ARM_Linux" url="https://www.jmlin.club/categories/ARM-Linux/"/>
+          
         </display>
     </data>
     </url>
@@ -231,9 +240,9 @@
         <title>话说存储类关键字</title>
         <pubTime>2017-08-28T02:23:46.000Z</pubTime>
         
-        <tag>关键字</tag>
-         
         <tag>存储类</tag>
+         
+        <tag>关键字</tag>
          
          
            
