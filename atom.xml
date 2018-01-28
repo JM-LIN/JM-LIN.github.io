@@ -118,9 +118,9 @@
     <link href="https://www.jmlin.club/posts/Vim%E4%B9%8B%E9%AB%98%E6%89%8B%E8%BF%9B%E9%98%B6%E7%AF%87.html"/>
     <id>https://www.jmlin.club/posts/Vim之高手进阶篇.html</id>
     <published>2017-12-21T13:03:46.000Z</published>
-    <updated>2017-12-22T08:33:37.931Z</updated>
+    <updated>2018-01-28T08:23:46.043Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Wed Jan 10 2018 14:33:42 GMT+0800 (中国标准时间) --><p>距离上一次发博客也是有一段时间了！<br><a id="more"></a></p><hr><h2 id="在命令模式下移动光标"><a href="#在命令模式下移动光标" class="headerlink" title="在命令模式下移动光标"></a>在命令模式下移动光标</h2><pre><code class="vim">                        H(屏幕首行开头)
+    <content type="html"><![CDATA[<!-- build time:Sun Jan 28 2018 16:24:29 GMT+0800 (中国标准时间) --><p>距离上一次发博客也是有一段时间了！<br><a id="more"></a></p><hr><h2 id="在命令模式下移动光标"><a href="#在命令模式下移动光标" class="headerlink" title="在命令模式下移动光标"></a>在命令模式下移动光标</h2><pre><code class="vim">                        H(屏幕首行开头)
                         gg(文章首行开头)
 <span class="number">0</span>(行首)                                                 $(行末)
 <span class="keyword">b</span>(前一个单词开头)                                        <span class="keyword">w</span>(后一个单词开头)
@@ -128,7 +128,9 @@
                         G(文章末行开头)
 </code></pre><h2 id="从命令模式进入插入模式"><a href="#从命令模式进入插入模式" class="headerlink" title="从命令模式进入插入模式"></a>从命令模式进入插入模式</h2><pre><code>o       &quot; 在当前光标所在行下面插入一行
 O       &quot; 在当前光标所在行上面插入一行
-</code></pre><h2 id="分屏模式"><a href="#分屏模式" class="headerlink" title="分屏模式"></a>分屏模式</h2><ul><li>适用于多文件处理<h3 id="横向分屏"><a href="#横向分屏" class="headerlink" title="横向分屏"></a>横向分屏</h3>:sp otherfilename “ split<h3 id="垂直分屏"><a href="#垂直分屏" class="headerlink" title="垂直分屏"></a>垂直分屏</h3>:vsp otherfilename “ vertically split<h3 id="切换Viewport"><a href="#切换Viewport" class="headerlink" title="切换Viewport"></a>切换Viewport</h3>| 按键 | 作用 |<br>| :——– | :——– |<br>| Ctrl + w -&gt; h | 移动光标到左边的viewport|<br>| Ctrl + w -&gt; j | 移动光标到下边的viewport|<br>| Ctrl + w -&gt; k | 移动光标到上边的viewport|<br>| Ctrl + w -&gt; l | 移动光标到右边的viewport|<br>| Ctrl + w -&gt; + | 扩大当前viewport|<br>| Ctrl + w -&gt; - | 缩小当前viewport|<br>| Ctrl + w -&gt; = | 重新均匀分配各个viewport的占比|<br>| Ctrl + w -&gt; r | 调换各个viewport的位置。用R的话是反向调换|<br>| Ctrl + w -&gt; q 或c | 关闭当前viewport|<br>| Ctrl + o 或 :only | 只保留当前所在viewport|</li></ul><h2 id="字符搜索"><a href="#字符搜索" class="headerlink" title="字符搜索"></a>字符搜索</h2><pre><code>/                   &quot; 顺序查找(n下一个、N上一个)
+</code></pre><h2 id="分屏模式"><a href="#分屏模式" class="headerlink" title="分屏模式"></a>分屏模式</h2><ul><li>适用于多文件处理</li></ul><h3 id="横向分屏"><a href="#横向分屏" class="headerlink" title="横向分屏"></a>横向分屏</h3><pre><code>:sp otherfilename   &quot; split
+</code></pre><h3 id="垂直分屏"><a href="#垂直分屏" class="headerlink" title="垂直分屏"></a>垂直分屏</h3><pre><code>:vsp otherfilename  &quot; vertically split
+</code></pre><h3 id="切换Viewport"><a href="#切换Viewport" class="headerlink" title="切换Viewport"></a>切换Viewport</h3><table><thead><tr><th style="text-align:left">按键</th><th style="text-align:left">作用</th></tr></thead><tbody><tr><td style="text-align:left">Ctrl + w -&gt; h</td><td style="text-align:left">移动光标到左边的viewport</td></tr><tr><td style="text-align:left">Ctrl + w -&gt; j</td><td style="text-align:left">移动光标到下边的viewport</td></tr><tr><td style="text-align:left">Ctrl + w -&gt; k</td><td style="text-align:left">移动光标到上边的viewport</td></tr><tr><td style="text-align:left">Ctrl + w -&gt; l</td><td style="text-align:left">移动光标到右边的viewport</td></tr><tr><td style="text-align:left">Ctrl + w -&gt; +</td><td style="text-align:left">扩大当前viewport</td></tr><tr><td style="text-align:left">Ctrl + w -&gt; -</td><td style="text-align:left">缩小当前viewport</td></tr><tr><td style="text-align:left">Ctrl + w -&gt; =</td><td style="text-align:left">重新均匀分配各个viewport的占比</td></tr><tr><td style="text-align:left">Ctrl + w -&gt; r</td><td style="text-align:left">调换各个viewport的位置。用R的话是反向调换</td></tr><tr><td style="text-align:left">Ctrl + w -&gt; q 或c</td><td style="text-align:left">关闭当前viewport</td></tr><tr><td style="text-align:left">Ctrl + o 或 :only</td><td style="text-align:left">只保留当前所在viewport</td></tr></tbody></table><h2 id="字符搜索"><a href="#字符搜索" class="headerlink" title="字符搜索"></a>字符搜索</h2><pre><code>/                   &quot; 顺序查找(n下一个、N上一个)
 ?                   &quot; 逆向查找
 %                   &quot; 配对括号查找
 </code></pre><h2 id="字符替换"><a href="#字符替换" class="headerlink" title="字符替换"></a>字符替换</h2><pre><code>:s/old/new          &quot; 只改当前所在行的第一个
@@ -148,7 +150,7 @@ v motion :w FILENAME        &quot; 可将当前编辑文件中可视模式下选
     
     <summary type="html">
     
-      &lt;!-- build time:Wed Jan 10 2018 14:33:42 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;距离上一次发博客也是有一段时间了！&lt;br&gt;
+      &lt;!-- build time:Sun Jan 28 2018 16:24:29 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;距离上一次发博客也是有一段时间了！&lt;br&gt;
     
     </summary>
     
