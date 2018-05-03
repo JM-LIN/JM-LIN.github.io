@@ -4,6 +4,68 @@
 
     
   <url>
+    <loc>https://www.jmlin.club/posts/%E8%AF%9D%E8%AF%B4%E5%AD%97%E7%AC%A6%E8%AE%BE%E5%A4%87%E9%A9%B1%E5%8A%A8.html</loc>
+    <lastmod>2018-05-03T03:25:52.272Z</lastmod>
+    <data>
+        <display>
+        <title>话说字符设备驱动</title>
+        <pubTime>2018-05-02T12:18:43.000Z</pubTime>
+        
+        <tag>driver</tag>
+         
+        <tag>device</tag>
+         
+        <tag>驱动</tag>
+         
+        <tag>设备</tag>
+         
+        <tag>字符</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux驱动架构" url="https://www.jmlin.club/categories/Linux%E9%A9%B1%E5%8A%A8%E6%9E%B6%E6%9E%84/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.jmlin.club/posts/Personal-Software.html</loc>
+    <lastmod>2018-05-02T12:36:05.995Z</lastmod>
+    <data>
+        <display>
+        <title>个人使用软件</title>
+        <pubTime>2017-07-27T07:57:25.000Z</pubTime>
+        
+        <tag>软件</tag>
+         
+        <tag>优雅</tag>
+         
+        <tag>极客</tag>
+         
+        <tag>效率</tag>
+         
+        <tag>必备</tag>
+         
+        <tag>win10</tag>
+         
+        <tag>干货</tag>
+         
+        <tag>工具</tag>
+         
+         
+           
+             
+              <breadCrumb title="Geek" url="https://www.jmlin.club/categories/Geek/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.jmlin.club/posts/ARM%E5%A4%84%E7%90%86%E5%99%A8.html</loc>
     <lastmod>2018-01-28T15:36:50.871Z</lastmod>
     <data>
@@ -116,40 +178,6 @@
 
     
   <url>
-    <loc>https://www.jmlin.club/posts/Personal-Software.html</loc>
-    <lastmod>2017-12-22T12:43:46.495Z</lastmod>
-    <data>
-        <display>
-        <title>个人使用软件</title>
-        <pubTime>2017-07-27T07:57:25.000Z</pubTime>
-        
-        <tag>软件</tag>
-         
-        <tag>优雅</tag>
-         
-        <tag>极客</tag>
-         
-        <tag>效率</tag>
-         
-        <tag>必备</tag>
-         
-        <tag>win10</tag>
-         
-        <tag>干货</tag>
-         
-        <tag>工具</tag>
-         
-         
-           
-             
-              <breadCrumb title="Geek" url="https://www.jmlin.club/categories/Geek/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.jmlin.club/posts/VPS%E6%90%AD%E5%BB%BA.html</loc>
     <lastmod>2017-12-22T08:39:40.667Z</lastmod>
     <data>
@@ -240,9 +268,9 @@
         <title>话说存储类关键字</title>
         <pubTime>2017-08-28T02:23:46.000Z</pubTime>
         
-        <tag>关键字</tag>
-         
         <tag>存储类</tag>
+         
+        <tag>关键字</tag>
          
          
            
