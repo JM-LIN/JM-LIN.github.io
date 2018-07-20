@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.jmlin.club/"/>
+  <link href="https://www.blog.jmlin.top/"/>
   <updated>2018-05-03T03:25:52.272Z</updated>
-  <id>https://www.jmlin.club/</id>
+  <id>https://www.blog.jmlin.top/</id>
   
   <author>
     <name>JM.Lin</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>话说字符设备驱动</title>
-    <link href="https://www.jmlin.club/posts/%E8%AF%9D%E8%AF%B4%E5%AD%97%E7%AC%A6%E8%AE%BE%E5%A4%87%E9%A9%B1%E5%8A%A8.html"/>
-    <id>https://www.jmlin.club/posts/话说字符设备驱动.html</id>
+    <link href="https://www.blog.jmlin.top/posts/%E8%AF%9D%E8%AF%B4%E5%AD%97%E7%AC%A6%E8%AE%BE%E5%A4%87%E9%A9%B1%E5%8A%A8.html"/>
+    <id>https://www.blog.jmlin.top/posts/话说字符设备驱动.html</id>
     <published>2018-05-02T12:18:43.000Z</published>
     <updated>2018-05-03T03:25:52.272Z</updated>
     
@@ -32,25 +32,25 @@
     
     </summary>
     
-      <category term="Linux驱动架构" scheme="https://www.jmlin.club/categories/Linux%E9%A9%B1%E5%8A%A8%E6%9E%B6%E6%9E%84/"/>
+      <category term="Linux驱动架构" scheme="https://www.blog.jmlin.top/categories/Linux%E9%A9%B1%E5%8A%A8%E6%9E%B6%E6%9E%84/"/>
     
     
-      <category term="driver" scheme="https://www.jmlin.club/tags/driver/"/>
+      <category term="driver" scheme="https://www.blog.jmlin.top/tags/driver/"/>
     
-      <category term="device" scheme="https://www.jmlin.club/tags/device/"/>
+      <category term="device" scheme="https://www.blog.jmlin.top/tags/device/"/>
     
-      <category term="驱动" scheme="https://www.jmlin.club/tags/%E9%A9%B1%E5%8A%A8/"/>
+      <category term="驱动" scheme="https://www.blog.jmlin.top/tags/%E9%A9%B1%E5%8A%A8/"/>
     
-      <category term="设备" scheme="https://www.jmlin.club/tags/%E8%AE%BE%E5%A4%87/"/>
+      <category term="设备" scheme="https://www.blog.jmlin.top/tags/%E8%AE%BE%E5%A4%87/"/>
     
-      <category term="字符" scheme="https://www.jmlin.club/tags/%E5%AD%97%E7%AC%A6/"/>
+      <category term="字符" scheme="https://www.blog.jmlin.top/tags/%E5%AD%97%E7%AC%A6/"/>
     
   </entry>
   
   <entry>
     <title>ARM处理器概述</title>
-    <link href="https://www.jmlin.club/posts/ARM%E5%A4%84%E7%90%86%E5%99%A8.html"/>
-    <id>https://www.jmlin.club/posts/ARM处理器.html</id>
+    <link href="https://www.blog.jmlin.top/posts/ARM%E5%A4%84%E7%90%86%E5%99%A8.html"/>
+    <id>https://www.blog.jmlin.top/posts/ARM处理器.html</id>
     <published>2018-01-28T14:56:28.000Z</published>
     <updated>2018-01-28T15:36:50.871Z</updated>
     
@@ -68,21 +68,21 @@ Thumb2指令集（16 &amp; 32 bit）
     
     </summary>
     
-      <category term="ARM_Linux" scheme="https://www.jmlin.club/categories/ARM-Linux/"/>
+      <category term="ARM_Linux" scheme="https://www.blog.jmlin.top/categories/ARM-Linux/"/>
     
     
-      <category term="ARM" scheme="https://www.jmlin.club/tags/ARM/"/>
+      <category term="ARM" scheme="https://www.blog.jmlin.top/tags/ARM/"/>
     
-      <category term="异常" scheme="https://www.jmlin.club/tags/%E5%BC%82%E5%B8%B8/"/>
+      <category term="异常" scheme="https://www.blog.jmlin.top/tags/%E5%BC%82%E5%B8%B8/"/>
     
-      <category term="寄存器" scheme="https://www.jmlin.club/tags/%E5%AF%84%E5%AD%98%E5%99%A8/"/>
+      <category term="寄存器" scheme="https://www.blog.jmlin.top/tags/%E5%AF%84%E5%AD%98%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>mini嵌入式web服务器搭建</title>
-    <link href="https://www.jmlin.club/posts/mini%E5%B5%8C%E5%85%A5%E5%BC%8Fweb%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA.html"/>
-    <id>https://www.jmlin.club/posts/mini嵌入式web服务器搭建.html</id>
+    <link href="https://www.blog.jmlin.top/posts/mini%E5%B5%8C%E5%85%A5%E5%BC%8Fweb%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA.html"/>
+    <id>https://www.blog.jmlin.top/posts/mini嵌入式web服务器搭建.html</id>
     <published>2018-01-07T04:22:54.000Z</published>
     <updated>2018-01-07T04:39:31.562Z</updated>
     
@@ -94,25 +94,25 @@ Thumb2指令集（16 &amp; 32 bit）
     
     </summary>
     
-      <category term="ARM_Linux" scheme="https://www.jmlin.club/categories/ARM-Linux/"/>
+      <category term="ARM_Linux" scheme="https://www.blog.jmlin.top/categories/ARM-Linux/"/>
     
     
-      <category term="NFS" scheme="https://www.jmlin.club/tags/NFS/"/>
+      <category term="NFS" scheme="https://www.blog.jmlin.top/tags/NFS/"/>
     
-      <category term="Uboot" scheme="https://www.jmlin.club/tags/Uboot/"/>
+      <category term="Uboot" scheme="https://www.blog.jmlin.top/tags/Uboot/"/>
     
-      <category term="Kernel" scheme="https://www.jmlin.club/tags/Kernel/"/>
+      <category term="Kernel" scheme="https://www.blog.jmlin.top/tags/Kernel/"/>
     
-      <category term="Rootfs" scheme="https://www.jmlin.club/tags/Rootfs/"/>
+      <category term="Rootfs" scheme="https://www.blog.jmlin.top/tags/Rootfs/"/>
     
-      <category term="BOA" scheme="https://www.jmlin.club/tags/BOA/"/>
+      <category term="BOA" scheme="https://www.blog.jmlin.top/tags/BOA/"/>
     
   </entry>
   
   <entry>
     <title>交叉编译工具链环境搭建</title>
-    <link href="https://www.jmlin.club/posts/%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E9%93%BE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html"/>
-    <id>https://www.jmlin.club/posts/交叉编译工具链环境搭建.html</id>
+    <link href="https://www.blog.jmlin.top/posts/%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E9%93%BE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html"/>
+    <id>https://www.blog.jmlin.top/posts/交叉编译工具链环境搭建.html</id>
     <published>2017-12-28T09:30:43.000Z</published>
     <updated>2017-12-28T10:15:27.776Z</updated>
     
@@ -124,17 +124,17 @@ Thumb2指令集（16 &amp; 32 bit）
     
     </summary>
     
-      <category term="Ubuntu" scheme="https://www.jmlin.club/categories/Ubuntu/"/>
+      <category term="Ubuntu" scheme="https://www.blog.jmlin.top/categories/Ubuntu/"/>
     
     
-      <category term="交叉编译" scheme="https://www.jmlin.club/tags/%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/"/>
+      <category term="交叉编译" scheme="https://www.blog.jmlin.top/tags/%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/"/>
     
   </entry>
   
   <entry>
     <title>NFS服务器搭建</title>
-    <link href="https://www.jmlin.club/posts/NFS%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA.html"/>
-    <id>https://www.jmlin.club/posts/NFS服务器搭建.html</id>
+    <link href="https://www.blog.jmlin.top/posts/NFS%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA.html"/>
+    <id>https://www.blog.jmlin.top/posts/NFS服务器搭建.html</id>
     <published>2017-12-28T06:55:35.000Z</published>
     <updated>2017-12-28T10:09:53.686Z</updated>
     
@@ -146,17 +146,17 @@ Thumb2指令集（16 &amp; 32 bit）
     
     </summary>
     
-      <category term="Ubuntu" scheme="https://www.jmlin.club/categories/Ubuntu/"/>
+      <category term="Ubuntu" scheme="https://www.blog.jmlin.top/categories/Ubuntu/"/>
     
     
-      <category term="NFS" scheme="https://www.jmlin.club/tags/NFS/"/>
+      <category term="NFS" scheme="https://www.blog.jmlin.top/tags/NFS/"/>
     
   </entry>
   
   <entry>
     <title>VPS搭建</title>
-    <link href="https://www.jmlin.club/posts/VPS%E6%90%AD%E5%BB%BA.html"/>
-    <id>https://www.jmlin.club/posts/VPS搭建.html</id>
+    <link href="https://www.blog.jmlin.top/posts/VPS%E6%90%AD%E5%BB%BA.html"/>
+    <id>https://www.blog.jmlin.top/posts/VPS搭建.html</id>
     <published>2017-12-21T13:14:18.000Z</published>
     <updated>2017-12-22T08:39:40.667Z</updated>
     
@@ -168,19 +168,19 @@ Thumb2指令集（16 &amp; 32 bit）
     
     </summary>
     
-      <category term="Geek" scheme="https://www.jmlin.club/categories/Geek/"/>
+      <category term="Geek" scheme="https://www.blog.jmlin.top/categories/Geek/"/>
     
     
-      <category term="VPS" scheme="https://www.jmlin.club/tags/VPS/"/>
+      <category term="VPS" scheme="https://www.blog.jmlin.top/tags/VPS/"/>
     
-      <category term="Vultr" scheme="https://www.jmlin.club/tags/Vultr/"/>
+      <category term="Vultr" scheme="https://www.blog.jmlin.top/tags/Vultr/"/>
     
   </entry>
   
   <entry>
     <title>Vim之高手进阶篇</title>
-    <link href="https://www.jmlin.club/posts/Vim%E4%B9%8B%E9%AB%98%E6%89%8B%E8%BF%9B%E9%98%B6%E7%AF%87.html"/>
-    <id>https://www.jmlin.club/posts/Vim之高手进阶篇.html</id>
+    <link href="https://www.blog.jmlin.top/posts/Vim%E4%B9%8B%E9%AB%98%E6%89%8B%E8%BF%9B%E9%98%B6%E7%AF%87.html"/>
+    <id>https://www.blog.jmlin.top/posts/Vim之高手进阶篇.html</id>
     <published>2017-12-21T13:03:46.000Z</published>
     <updated>2018-01-28T08:23:46.043Z</updated>
     
@@ -218,17 +218,17 @@ v motion :w FILENAME        &quot; 可将当前编辑文件中可视模式下选
     
     </summary>
     
-      <category term="Geek" scheme="https://www.jmlin.club/categories/Geek/"/>
+      <category term="Geek" scheme="https://www.blog.jmlin.top/categories/Geek/"/>
     
     
-      <category term="vim" scheme="https://www.jmlin.club/tags/vim/"/>
+      <category term="vim" scheme="https://www.blog.jmlin.top/tags/vim/"/>
     
   </entry>
   
   <entry>
     <title>Raspberry Pi 3B上手</title>
-    <link href="https://www.jmlin.club/posts/Raspberry-Pi3%E4%B8%8A%E6%89%8B.html"/>
-    <id>https://www.jmlin.club/posts/Raspberry-Pi3上手.html</id>
+    <link href="https://www.blog.jmlin.top/posts/Raspberry-Pi3%E4%B8%8A%E6%89%8B.html"/>
+    <id>https://www.blog.jmlin.top/posts/Raspberry-Pi3上手.html</id>
     <published>2017-11-26T10:41:47.000Z</published>
     <updated>2017-11-27T07:16:17.377Z</updated>
     
@@ -256,17 +256,17 @@ vi /etc/dhcpcd.conf
     
     </summary>
     
-      <category term="Geek" scheme="https://www.jmlin.club/categories/Geek/"/>
+      <category term="Geek" scheme="https://www.blog.jmlin.top/categories/Geek/"/>
     
     
-      <category term="树莓派3" scheme="https://www.jmlin.club/tags/%E6%A0%91%E8%8E%93%E6%B4%BE3/"/>
+      <category term="树莓派3" scheme="https://www.blog.jmlin.top/tags/%E6%A0%91%E8%8E%93%E6%B4%BE3/"/>
     
   </entry>
   
   <entry>
     <title>Uboot前期准备</title>
-    <link href="https://www.jmlin.club/posts/Uboot%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87.html"/>
-    <id>https://www.jmlin.club/posts/Uboot前期准备.html</id>
+    <link href="https://www.blog.jmlin.top/posts/Uboot%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87.html"/>
+    <id>https://www.blog.jmlin.top/posts/Uboot前期准备.html</id>
     <published>2017-10-11T08:33:26.000Z</published>
     <updated>2017-10-11T10:13:16.271Z</updated>
     
@@ -278,17 +278,17 @@ vi /etc/dhcpcd.conf
     
     </summary>
     
-      <category term="Uboot" scheme="https://www.jmlin.club/categories/Uboot/"/>
+      <category term="Uboot" scheme="https://www.blog.jmlin.top/categories/Uboot/"/>
     
     
-      <category term="Uboot" scheme="https://www.jmlin.club/tags/Uboot/"/>
+      <category term="Uboot" scheme="https://www.blog.jmlin.top/tags/Uboot/"/>
     
   </entry>
   
   <entry>
     <title>话说存储类关键字</title>
-    <link href="https://www.jmlin.club/posts/%E8%AF%9D%E8%AF%B4%E5%AD%98%E5%82%A8%E7%B1%BB%E5%85%B3%E9%94%AE%E5%AD%97.html"/>
-    <id>https://www.jmlin.club/posts/话说存储类关键字.html</id>
+    <link href="https://www.blog.jmlin.top/posts/%E8%AF%9D%E8%AF%B4%E5%AD%98%E5%82%A8%E7%B1%BB%E5%85%B3%E9%94%AE%E5%AD%97.html"/>
+    <id>https://www.blog.jmlin.top/posts/话说存储类关键字.html</id>
     <published>2017-08-28T02:23:46.000Z</published>
     <updated>2017-09-15T12:05:43.690Z</updated>
     
@@ -300,19 +300,19 @@ vi /etc/dhcpcd.conf
     
     </summary>
     
-      <category term="C" scheme="https://www.jmlin.club/categories/C/"/>
+      <category term="C" scheme="https://www.blog.jmlin.top/categories/C/"/>
     
     
-      <category term="存储类" scheme="https://www.jmlin.club/tags/%E5%AD%98%E5%82%A8%E7%B1%BB/"/>
+      <category term="存储类" scheme="https://www.blog.jmlin.top/tags/%E5%AD%98%E5%82%A8%E7%B1%BB/"/>
     
-      <category term="关键字" scheme="https://www.jmlin.club/tags/%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+      <category term="关键字" scheme="https://www.blog.jmlin.top/tags/%E5%85%B3%E9%94%AE%E5%AD%97/"/>
     
   </entry>
   
   <entry>
     <title>话说存储类</title>
-    <link href="https://www.jmlin.club/posts/%E8%AF%9D%E8%AF%B4%E5%AD%98%E5%82%A8%E7%B1%BB.html"/>
-    <id>https://www.jmlin.club/posts/话说存储类.html</id>
+    <link href="https://www.blog.jmlin.top/posts/%E8%AF%9D%E8%AF%B4%E5%AD%98%E5%82%A8%E7%B1%BB.html"/>
+    <id>https://www.blog.jmlin.top/posts/话说存储类.html</id>
     <published>2017-08-23T02:16:26.000Z</published>
     <updated>2017-08-23T12:06:52.067Z</updated>
     
@@ -324,23 +324,23 @@ vi /etc/dhcpcd.conf
     
     </summary>
     
-      <category term="C" scheme="https://www.jmlin.club/categories/C/"/>
+      <category term="C" scheme="https://www.blog.jmlin.top/categories/C/"/>
     
     
-      <category term="存储类" scheme="https://www.jmlin.club/tags/%E5%AD%98%E5%82%A8%E7%B1%BB/"/>
+      <category term="存储类" scheme="https://www.blog.jmlin.top/tags/%E5%AD%98%E5%82%A8%E7%B1%BB/"/>
     
-      <category term="作用域" scheme="https://www.jmlin.club/tags/%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
+      <category term="作用域" scheme="https://www.blog.jmlin.top/tags/%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
     
-      <category term="生命周期" scheme="https://www.jmlin.club/tags/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
+      <category term="生命周期" scheme="https://www.blog.jmlin.top/tags/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
     
-      <category term="链接属性" scheme="https://www.jmlin.club/tags/%E9%93%BE%E6%8E%A5%E5%B1%9E%E6%80%A7/"/>
+      <category term="链接属性" scheme="https://www.blog.jmlin.top/tags/%E9%93%BE%E6%8E%A5%E5%B1%9E%E6%80%A7/"/>
     
   </entry>
   
   <entry>
     <title>Vim之基础入门篇</title>
-    <link href="https://www.jmlin.club/posts/Vim%E4%B9%8B%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87.html"/>
-    <id>https://www.jmlin.club/posts/Vim之基础入门篇.html</id>
+    <link href="https://www.blog.jmlin.top/posts/Vim%E4%B9%8B%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87.html"/>
+    <id>https://www.blog.jmlin.top/posts/Vim之基础入门篇.html</id>
     <published>2017-08-20T12:00:56.000Z</published>
     <updated>2017-08-22T04:25:39.243Z</updated>
     
@@ -352,17 +352,17 @@ vi /etc/dhcpcd.conf
     
     </summary>
     
-      <category term="Geek" scheme="https://www.jmlin.club/categories/Geek/"/>
+      <category term="Geek" scheme="https://www.blog.jmlin.top/categories/Geek/"/>
     
     
-      <category term="vim" scheme="https://www.jmlin.club/tags/vim/"/>
+      <category term="vim" scheme="https://www.blog.jmlin.top/tags/vim/"/>
     
   </entry>
   
   <entry>
     <title>浅谈指针</title>
-    <link href="https://www.jmlin.club/posts/%E8%AF%9D%E8%AF%B4%E6%8C%87%E9%92%88.html"/>
-    <id>https://www.jmlin.club/posts/话说指针.html</id>
+    <link href="https://www.blog.jmlin.top/posts/%E8%AF%9D%E8%AF%B4%E6%8C%87%E9%92%88.html"/>
+    <id>https://www.blog.jmlin.top/posts/话说指针.html</id>
     <published>2017-08-20T06:05:08.000Z</published>
     <updated>2017-08-23T02:11:15.566Z</updated>
     
@@ -374,19 +374,19 @@ vi /etc/dhcpcd.conf
     
     </summary>
     
-      <category term="C" scheme="https://www.jmlin.club/categories/C/"/>
+      <category term="C" scheme="https://www.blog.jmlin.top/categories/C/"/>
     
     
-      <category term="指针" scheme="https://www.jmlin.club/tags/%E6%8C%87%E9%92%88/"/>
+      <category term="指针" scheme="https://www.blog.jmlin.top/tags/%E6%8C%87%E9%92%88/"/>
     
-      <category term="大端小端" scheme="https://www.jmlin.club/tags/%E5%A4%A7%E7%AB%AF%E5%B0%8F%E7%AB%AF/"/>
+      <category term="大端小端" scheme="https://www.blog.jmlin.top/tags/%E5%A4%A7%E7%AB%AF%E5%B0%8F%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>话说内存对齐</title>
-    <link href="https://www.jmlin.club/posts/%E8%AF%9D%E8%AF%B4%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90.html"/>
-    <id>https://www.jmlin.club/posts/话说内存对齐.html</id>
+    <link href="https://www.blog.jmlin.top/posts/%E8%AF%9D%E8%AF%B4%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90.html"/>
+    <id>https://www.blog.jmlin.top/posts/话说内存对齐.html</id>
     <published>2017-08-20T03:09:09.000Z</published>
     <updated>2017-08-23T07:26:21.552Z</updated>
     
@@ -398,17 +398,17 @@ vi /etc/dhcpcd.conf
     
     </summary>
     
-      <category term="C" scheme="https://www.jmlin.club/categories/C/"/>
+      <category term="C" scheme="https://www.blog.jmlin.top/categories/C/"/>
     
     
-      <category term="嵌入式C" scheme="https://www.jmlin.club/tags/%E5%B5%8C%E5%85%A5%E5%BC%8FC/"/>
+      <category term="嵌入式C" scheme="https://www.blog.jmlin.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8FC/"/>
     
   </entry>
   
   <entry>
     <title>Uboot下烧录Linux内核镜像</title>
-    <link href="https://www.jmlin.club/posts/Uboot%E4%B8%8B%E7%83%A7%E5%BD%95Linux%E5%86%85%E6%A0%B8%E9%95%9C%E5%83%8F.html"/>
-    <id>https://www.jmlin.club/posts/Uboot下烧录Linux内核镜像.html</id>
+    <link href="https://www.blog.jmlin.top/posts/Uboot%E4%B8%8B%E7%83%A7%E5%BD%95Linux%E5%86%85%E6%A0%B8%E9%95%9C%E5%83%8F.html"/>
+    <id>https://www.blog.jmlin.top/posts/Uboot下烧录Linux内核镜像.html</id>
     <published>2017-08-05T06:37:40.000Z</published>
     <updated>2017-08-22T02:06:01.415Z</updated>
     
@@ -420,17 +420,17 @@ vi /etc/dhcpcd.conf
     
     </summary>
     
-      <category term="Uboot" scheme="https://www.jmlin.club/categories/Uboot/"/>
+      <category term="Uboot" scheme="https://www.blog.jmlin.top/categories/Uboot/"/>
     
     
-      <category term="Uboot" scheme="https://www.jmlin.club/tags/Uboot/"/>
+      <category term="Uboot" scheme="https://www.blog.jmlin.top/tags/Uboot/"/>
     
   </entry>
   
   <entry>
     <title>配置TFTP</title>
-    <link href="https://www.jmlin.club/posts/%E9%85%8D%E7%BD%AETFTP.html"/>
-    <id>https://www.jmlin.club/posts/配置TFTP.html</id>
+    <link href="https://www.blog.jmlin.top/posts/%E9%85%8D%E7%BD%AETFTP.html"/>
+    <id>https://www.blog.jmlin.top/posts/配置TFTP.html</id>
     <published>2017-08-05T06:21:46.000Z</published>
     <updated>2017-08-22T01:58:57.898Z</updated>
     
@@ -442,19 +442,19 @@ vi /etc/dhcpcd.conf
     
     </summary>
     
-      <category term="Ubuntu" scheme="https://www.jmlin.club/categories/Ubuntu/"/>
+      <category term="Ubuntu" scheme="https://www.blog.jmlin.top/categories/Ubuntu/"/>
     
     
-      <category term="TFTP" scheme="https://www.jmlin.club/tags/TFTP/"/>
+      <category term="TFTP" scheme="https://www.blog.jmlin.top/tags/TFTP/"/>
     
-      <category term="Ubuntu" scheme="https://www.jmlin.club/tags/Ubuntu/"/>
+      <category term="Ubuntu" scheme="https://www.blog.jmlin.top/tags/Ubuntu/"/>
     
   </entry>
   
   <entry>
     <title>Uboot启动两个阶段</title>
-    <link href="https://www.jmlin.club/posts/Uboot%E5%90%AF%E5%8A%A8%E4%B8%A4%E4%B8%AA%E9%98%B6%E6%AE%B5.html"/>
-    <id>https://www.jmlin.club/posts/Uboot启动两个阶段.html</id>
+    <link href="https://www.blog.jmlin.top/posts/Uboot%E5%90%AF%E5%8A%A8%E4%B8%A4%E4%B8%AA%E9%98%B6%E6%AE%B5.html"/>
+    <id>https://www.blog.jmlin.top/posts/Uboot启动两个阶段.html</id>
     <published>2017-08-05T02:58:51.000Z</published>
     <updated>2017-10-02T13:59:28.999Z</updated>
     
@@ -499,17 +499,17 @@ step20->step21->step22->step23(right)->e</textarea><textarea id="flowchart-0-opt
     
     </summary>
     
-      <category term="Uboot" scheme="https://www.jmlin.club/categories/Uboot/"/>
+      <category term="Uboot" scheme="https://www.blog.jmlin.top/categories/Uboot/"/>
     
     
-      <category term="Uboot" scheme="https://www.jmlin.club/tags/Uboot/"/>
+      <category term="Uboot" scheme="https://www.blog.jmlin.top/tags/Uboot/"/>
     
   </entry>
   
   <entry>
     <title>Uboot主目录下的Makefile分析</title>
-    <link href="https://www.jmlin.club/posts/Uboot%E4%B8%BB%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84Makefile%E5%88%86%E6%9E%90.html"/>
-    <id>https://www.jmlin.club/posts/Uboot主目录下的Makefile分析.html</id>
+    <link href="https://www.blog.jmlin.top/posts/Uboot%E4%B8%BB%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84Makefile%E5%88%86%E6%9E%90.html"/>
+    <id>https://www.blog.jmlin.top/posts/Uboot主目录下的Makefile分析.html</id>
     <published>2017-07-31T09:07:24.000Z</published>
     <updated>2017-08-22T02:06:51.140Z</updated>
     
@@ -521,17 +521,17 @@ step20->step21->step22->step23(right)->e</textarea><textarea id="flowchart-0-opt
     
     </summary>
     
-      <category term="Uboot" scheme="https://www.jmlin.club/categories/Uboot/"/>
+      <category term="Uboot" scheme="https://www.blog.jmlin.top/categories/Uboot/"/>
     
     
-      <category term="Uboot" scheme="https://www.jmlin.club/tags/Uboot/"/>
+      <category term="Uboot" scheme="https://www.blog.jmlin.top/tags/Uboot/"/>
     
   </entry>
   
   <entry>
     <title>个人使用软件</title>
-    <link href="https://www.jmlin.club/posts/Personal-Software.html"/>
-    <id>https://www.jmlin.club/posts/Personal-Software.html</id>
+    <link href="https://www.blog.jmlin.top/posts/Personal-Software.html"/>
+    <id>https://www.blog.jmlin.top/posts/Personal-Software.html</id>
     <published>2017-07-27T07:57:25.000Z</published>
     <updated>2018-05-02T12:36:05.995Z</updated>
     
@@ -543,31 +543,31 @@ step20->step21->step22->step23(right)->e</textarea><textarea id="flowchart-0-opt
     
     </summary>
     
-      <category term="Geek" scheme="https://www.jmlin.club/categories/Geek/"/>
+      <category term="Geek" scheme="https://www.blog.jmlin.top/categories/Geek/"/>
     
     
-      <category term="软件" scheme="https://www.jmlin.club/tags/%E8%BD%AF%E4%BB%B6/"/>
+      <category term="软件" scheme="https://www.blog.jmlin.top/tags/%E8%BD%AF%E4%BB%B6/"/>
     
-      <category term="优雅" scheme="https://www.jmlin.club/tags/%E4%BC%98%E9%9B%85/"/>
+      <category term="优雅" scheme="https://www.blog.jmlin.top/tags/%E4%BC%98%E9%9B%85/"/>
     
-      <category term="极客" scheme="https://www.jmlin.club/tags/%E6%9E%81%E5%AE%A2/"/>
+      <category term="极客" scheme="https://www.blog.jmlin.top/tags/%E6%9E%81%E5%AE%A2/"/>
     
-      <category term="效率" scheme="https://www.jmlin.club/tags/%E6%95%88%E7%8E%87/"/>
+      <category term="效率" scheme="https://www.blog.jmlin.top/tags/%E6%95%88%E7%8E%87/"/>
     
-      <category term="必备" scheme="https://www.jmlin.club/tags/%E5%BF%85%E5%A4%87/"/>
+      <category term="必备" scheme="https://www.blog.jmlin.top/tags/%E5%BF%85%E5%A4%87/"/>
     
-      <category term="win10" scheme="https://www.jmlin.club/tags/win10/"/>
+      <category term="win10" scheme="https://www.blog.jmlin.top/tags/win10/"/>
     
-      <category term="干货" scheme="https://www.jmlin.club/tags/%E5%B9%B2%E8%B4%A7/"/>
+      <category term="干货" scheme="https://www.blog.jmlin.top/tags/%E5%B9%B2%E8%B4%A7/"/>
     
-      <category term="工具" scheme="https://www.jmlin.club/tags/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://www.blog.jmlin.top/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>前言</title>
-    <link href="https://www.jmlin.club/posts/WTF.html"/>
-    <id>https://www.jmlin.club/posts/WTF.html</id>
+    <link href="https://www.blog.jmlin.top/posts/WTF.html"/>
+    <id>https://www.blog.jmlin.top/posts/WTF.html</id>
     <published>2017-07-26T07:29:00.000Z</published>
     <updated>2017-08-21T13:41:45.388Z</updated>
     
