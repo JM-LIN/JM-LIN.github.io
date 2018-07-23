@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>https://blog.jmlin.top/posts/ARM%E5%A4%84%E7%90%86%E5%99%A8.html</loc>
+    <lastmod>2018-07-23T02:29:35.623Z</lastmod>
+    <data>
+        <display>
+        <title>ARM处理器概述</title>
+        <pubTime>2018-01-28T14:56:28.000Z</pubTime>
+        
+        <tag>ARM</tag>
+         
+        <tag>异常</tag>
+         
+        <tag>寄存器</tag>
+         
+         
+           
+             
+              <breadCrumb title="ARM_Linux" url="https://blog.jmlin.top/categories/ARM-Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://blog.jmlin.top/posts/%E8%AF%9D%E8%AF%B4%E5%AD%97%E7%AC%A6%E8%AE%BE%E5%A4%87%E9%A9%B1%E5%8A%A8.html</loc>
     <lastmod>2018-05-03T03:25:52.272Z</lastmod>
     <data>
@@ -59,30 +83,6 @@
            
              
               <breadCrumb title="Geek" url="https://blog.jmlin.top/categories/Geek/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://blog.jmlin.top/posts/ARM%E5%A4%84%E7%90%86%E5%99%A8.html</loc>
-    <lastmod>2018-01-28T15:36:50.871Z</lastmod>
-    <data>
-        <display>
-        <title>ARM处理器概述</title>
-        <pubTime>2018-01-28T14:56:28.000Z</pubTime>
-        
-        <tag>ARM</tag>
-         
-        <tag>异常</tag>
-         
-        <tag>寄存器</tag>
-         
-         
-           
-             
-              <breadCrumb title="ARM_Linux" url="https://blog.jmlin.top/categories/ARM-Linux/"/>
           
         </display>
     </data>
