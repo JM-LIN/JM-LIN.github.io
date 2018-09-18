@@ -4,6 +4,9 @@
     <title><![CDATA[1.话说大数据]]></title>
     <url>%2Fposts%2F1-%E8%AF%9D%E8%AF%B4%E5%A4%A7%E6%95%B0%E6%8D%AE.html</url>
     <content type="text"><![CDATA[一些简单的关于云计算的基础概念总结特征：大量化、快速化、多样化、价值化IT基础设施1.云计算2.虚拟化3.大数据4.Hadoop生态圈(分布式存储与并行计算及其框架)1. 关键技术1.1 数据采集利用ETL工具将分布的、异构数据源中的数据(如关系数据、平面数据文件)，抽取到临时中间层后进行清洗、转换、集成最后加载到数据仓库或数据集市中，成为联机分析处理、数据挖掘的基础或者可以把实时采集的数据作为流计算系统的输入，进行实时处理分析1.2 数据存储和管理利用分布式文件系统、数据仓库、关系数据库、NoSQL、云数据库等实现对结构化、半结构化和非结构化海量数据的存储和管理1.3 数据处理与分析利用分布式并行编程模型和计算框架，结合机器学习和数据挖掘算法实现对海量数据的处理和分析(对分析结果进行可视化呈现，帮助人们更好地理解数据、分析数据)1.4 数据隐私和安全在从大数据中挖掘潜在的巨大商业价值和学术价值的同时，构建隐私数据保护体系和数据安全体系，有效保护个人隐私和数据安全2. Hadoop生态圈资源HDFS存储MapReduce框架服务HDFS操作HDFS编程MapReduce提供分布式并行计算HBase数据库Hive数据仓库数据库与数据仓库对比数据仓库的数据一般由数据库的数据经过一定的规则转换得到数据仓库主要用来分析数据，一般是TB级数据(如决策支持系统、数据挖掘)数据仓库数据库面向分析面向事务处理数据基本不变根据日常业务而更新3. 大数据计算模式典型大数据计算模式典型系统批处理计算Hadoop MapReduce，Spark等流式计算Scribe，Flume，Storm，S4, Spark Steaming等迭代计算HaLoop，iMapReduce，Twister，Spark等图计算Pregel，Giraph，Trinity，PowerGraph，GraphX等内存计算Dremel，Hana，Spark等大数据查询分析计算HBase，Hive，Cassandra，Impala，Shark，Hana等注：本文内容部分来自互联网整理，部分来自个人经验总结；本文将持续收集更新，欢迎留言补充！]]></content>
+      <categories>
+        <category>云计算与物联网</category>
+      </categories>
   </entry>
   <entry>
     <title><![CDATA[话说字符设备驱动]]></title>
